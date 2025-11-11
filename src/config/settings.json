@@ -1,0 +1,15 @@
+{
+  "loggingLevel": "INFO",
+  "updatePreferences": {
+    "autoUpdate": true,
+    "notifyBeforeUpdate": true
+  },
+  "paths": {
+    "logFilePath": "logs/update.log",
+    "reportFilePath": "reports/update_report.json"
+  },
+  "compatibility": {
+    "checkWindows10": true,
+    "checkWindows11": true
+  }
+}
