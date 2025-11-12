@@ -11,5 +11,18 @@
   "compatibility": {
     "checkWindows10": true,
     "checkWindows11": true
+  },
+  "database": {
+    "server": "YOUR_SERVER_IP_HERE",
+    "port": 3306,
+    "database": "YOUR_DATABASE_NAME_HERE",
+    "username": "YOUR_DB_USERNAME_HERE",
+    "password": "YOUR_DB_PASSWORD_HERE",
+    "tableName": "update_reports"
+  },
+  "webServer": {
+    "apiEndpoint": "http://YOUR_SERVER_IP_HERE/api/update-report.php",
+    "apiKey": "YOUR_API_KEY_HERE",
+    "timeout": 30
   }
 }
